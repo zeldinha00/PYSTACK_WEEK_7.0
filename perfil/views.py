@@ -31,7 +31,7 @@ def cadastrar_banco(request):
     valor = request.POST.get('valor')
     icone = request.FILES.get('icone')
     
-    # validar o apelido
+    # validar o apelido e valor
     if len(apelido.strip()) == 0 or len(valor.strip()) == 0:
         messages.add_message(request, constants.ERROR, 'Preencha todos os campos')
         return redirect('/perfil/gerenciar/')

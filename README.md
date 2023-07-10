@@ -20,6 +20,11 @@ Foi usado o ambiente virtual e para instalação usa o comando:
 
 - **Windows** : python -m venv venv
 
+Foi usado as seguintes bibliotecas:
+
+- **Django** : pip install django
+
+- **Pillow** : pip install pillow
 
 
 ## 🎯 Aprenda Python e Django com um projeto FINAN.CE
